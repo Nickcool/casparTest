@@ -1,0 +1,23 @@
+Part one of the task was: "Imagine the following log-in webpage. Please think about possible test cases. To make it not too time consuming, please provide only headlines of the test cases (logical test cases - high level).
+"
+
+Here are options I came up with, tried to make it simple:
+
+1. check it’s possible to login with valid email or casparid and password 
+2. check ‘forgot pass’ sends email with restore link to correct email
+3. check it’s possible to change pass with this link
+4. check it’s possible to login with QR code
+5. check if possible to set up another language
+6. check it’s possible to login with valid email/password with any possible language selected
+7. check ‘eye’ button on password field shows/hides password (should be hidden by default)
+8. check fields clean data after page reload
+9. check it’s impossible to login with invalid (user not existing) user data
+10. check appropriate error message is shown after login attempt with invalid data
+11. check it’s impossible to change password if change the link which was sent to email 
+12. check it’s impossible to change password if new password is not meeting all requirements (if there are any)
+13. check ‘Login’ button won’t become enabled if enter inappropriate (if there are any) symbols into login fields
+14. check if the password is changed the user should not be able to login with the old password
+15. check page looks and acts the same in different browser/os combination, also in incognito mode
+16. check that window resize doesn’t cause page elements misplaced
+17. some other cases you can come up during testing…
+
